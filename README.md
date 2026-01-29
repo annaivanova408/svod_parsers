@@ -6,6 +6,7 @@
 ## Зависимости
 
 pip install -U pip
+
 pip install requests beautifulsoup4 lxml apscheduler
 
 ## Структура проекта
