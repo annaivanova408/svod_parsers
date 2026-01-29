@@ -21,4 +21,12 @@ pip install requests beautifulsoup4 lxml apscheduler
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
+## Запуск (разовый)
+
+python master.py --backfill-days 30 --csv false
+
+## Запуск (постоянный, парсинг автоматически происходит раз в 3 дня)
+
+python master.py --csv false
